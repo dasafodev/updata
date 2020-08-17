@@ -1,0 +1,62 @@
+fuente1= 'Lato'
+fuente2= 'Open Sans'
+lavender_web=#DFE2ED
+cornflower_blue= #7E96ED
+blue_ryb= #0236F2
+midnigth_blue= #051B69
+rich_black=#0B1021
+
+
+
+.content
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    align-items: center
+    justify-items: center
+    padding: 40px
+    background-color: lavender_web;
+    font-family: fuente2
+    letter-spacing: 2px
+    color: rich_black
+    font-size: 30px
+    margin-top: 40px
+    margin-bottom: 80px
+    &__item--1
+        grid-row: span 2
+    &__item--2
+        grid-column-start:  4
+        grid-column: span 2
+        text-align: center
+        &>span
+            font-weight: 700
+            letter-spacing: 0.2px
+    &__item--3
+        grid-column: span 2
+    &__item--4
+        grid-column-start: 4
+        grid-row: 1 / span 2
+
+.searcher
+    width: 525px
+    border-radius: 100px
+    border: 1px solid cornflower_blue
+    display: flex
+    justify-content: center
+    align-items: center
+    &:hover
+        box-shadow: 0 1px 6px 0 blue_ryb
+        border-color: midnigth_blue
+    &__input
+        width: 450px
+        height: 40px
+        border: none
+        outline: none
+        background-color: lavender_web
+    &__icon
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png')
+        background-repeat: no-repeat
+        background-position: center
+        background-size: contain
+        width: 20px
+        height: 20px
