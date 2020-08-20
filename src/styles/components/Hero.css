@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: grid;
+    height: 35vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+    background-color: #F5F5F5;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+    color: rich_black;
+    font-size: 30px;
+}
+
+.content__item--1{
+    grid-row: span 2;
+    margin-bottom: -150px;
+    
+
+}
+.content__item--2{
+    grid-column-start:  4;
+        grid-column: span 2;
+        text-align: center;
+}
+.content__item--2 span{
+    font-weight: 700;
+            letter-spacing: 0.2px;
+}
+
+
+.content__item--3{
+    grid-column: span 2
+
+
+}
+.content__item--4{
+    grid-column-start: 4;
+        grid-row: 1 / span 2;
+    margin-bottom: -150px;
+
+}
+
+
+.searcher {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #7e96ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searcher:hover {
+    box-shadow: 0 1px 6px 0 #0236f2;
+    border-color: #051b69;
+  }
+  .searcher__input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+  }
+  .searcher__icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+  }
+  
