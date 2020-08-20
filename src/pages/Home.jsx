@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import ProductCard from '../components/ProductCard';
 import Hero from '../components/Hero';
+import Header from '../components/header';
 
 import '../styles/components/Home.css';
 import '../styles/components/App.styl';
@@ -9,6 +10,7 @@ export class Home extends PureComponent {
   render() {
     return (
       <div>
+        <Header />
         <Hero />
         <section className="products-container">
           <ProductCard

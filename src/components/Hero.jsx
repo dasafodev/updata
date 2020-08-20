@@ -11,12 +11,7 @@ export default function Hero() {
         className="content__item--1 item"
       />
       <p className="content__item--2 item">
-        Revisa las ultimas tendencias en tiendas como 
-        {' '}
-        <span>Amazon</span>
-        {' '}
-        y
-        {' '}
+        Revisa las ultimas tendencias en tiendas como <span>Amazon</span> y{' '}
         <span>Mercado Libre</span>
       </p>
       <div className="content__item--3">
