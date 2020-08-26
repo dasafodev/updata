@@ -3,3 +3,11 @@
     justify-content: center;
     margin-top: 80px;
 }
+.cat-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.cat-container>div{
+    margin:10px;
+}
