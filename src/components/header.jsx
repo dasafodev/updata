@@ -9,7 +9,7 @@ export default function Header() {
     <div className="header">
       <div className="wrapper">
         <div className="logo">
-          <img  
+          <img
             src={Logo}
             alt="logo"
           />
@@ -17,10 +17,10 @@ export default function Header() {
         </div>
 
         <nav>
-          <Link to="/home">Inicio</Link>
-          <Link to="/">Productos</Link>
-          <Link>Categorias</Link>
-          <Link>Nosotros</Link>
+            <Link to="/Home">Inicio</Link>
+            <Link to="/Products">Productos</Link>
+            <Link>Categorias</Link>
+            <Link>Nosotros</Link>
         </nav>
       </div>
     </div>

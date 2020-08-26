@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/components/App.css';
 import { Home } from '../pages/Home';
 import Layout from './Layout';
+import { Products } from '../pages/Products';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 const App = () => (
@@ -10,7 +11,7 @@ const App = () => (
             <Switch>
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/" component={TestPage} />
-                {/* <Route exact path="/products" component={Products} /> */}
+                <Route exact path="/products" component={Products} /> 
             </Switch>
         </Layout>
 
