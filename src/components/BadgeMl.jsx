@@ -1,13 +1,9 @@
 import React from 'react';
 import Cat2 from '../assets/ml.jpg';
-import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import MotorcycleIcon from '@material-ui/icons/Motorcycle';
 import ChildFriendlyIcon from '@material-ui/icons/ChildFriendly';

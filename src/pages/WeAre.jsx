@@ -1,22 +1,19 @@
 import React from 'react';
 import BadgeAmazon from '../components/BadgeAmazon';
-import BadgeMl from '../components/BadgeMl';
+import Team from '../components/Team';
 
 import '../styles/components/Home.css';
 
-export class Categories extends React.Component{
+export class WeAre extends React.Component{
     render(){
         return(
             <div className = "cat-container">
             <div>
-        <BadgeAmazon />
-            </div>
-            <div>
-                <BadgeMl />
+                <Team />
             </div>
         </div>
         )
     }
 }
 
-export default Categories;
+export default WeAre;

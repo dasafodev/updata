@@ -4,6 +4,7 @@ import { Home } from '../pages/Home';
 import Layout from './Layout';
 import { Categories } from '../pages/Categories';
 import { Products } from '../pages/Products';
+import { WeAre } from '../pages/WeAre';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 const App = () => (
@@ -13,7 +14,8 @@ const App = () => (
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/" component={TestPage} />
                 <Route exact path="/products" component={Products} />
-                <Route exact path="/categories" component={Categories} /> 
+                <Route exact path="/categories" component={Categories} />
+                <Route exact path="/weare" component={WeAre} />  
             </Switch>
         </Layout>
 

@@ -20,7 +20,7 @@ export default function Header() {
             <Link to="/Home">Inicio</Link>
             <Link to="/Products">Productos</Link>
             <Link to="/Categories">Categorias</Link>
-            <Link>Nosotros</Link>
+            <Link to="/WeAre">Nosotros</Link>
         </nav>
       </div>
     </div>
